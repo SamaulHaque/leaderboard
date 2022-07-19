@@ -19,12 +19,25 @@ header{
     justify-content: space-between;
     
 }
+.logo{
+    width: 40.4px;
+    height: 51px;
+}
+.menu{
+    position:relative;
+    top: -20px;
+}
  .header a{
     text-decoration: none;
     margin-right: 15px;
     font-size: 20px;
     font-weight: 700;
     color: white;
+
+ }
+ .user{
+    width: 51px;
+    height: 51px;
  }
 
  /* top player style */
