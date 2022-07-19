@@ -1,0 +1,143 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+ }
+/* header style */
+header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header{
+    padding: 20px 0px;
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .header a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+ }
+
+ /* top player style */
+.main{
+    padding-top: 25px;
+    background-color: #F3F1FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 870px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container h2{
+    color: #562EFF;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+.container hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 21px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    margin-bottom: 20px;  
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 15px;
+}
+.player h3{
+    font-size: 18px;
+}
+
+/* top blogs style*/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+}
+.title{
+    font-size: 20px;
+}
+.author{
+     color: #9F9F9F;
+}
+.author a{
+    text-decoration: none;
+   color: #562EFF;
+}
+
+/* lates courses atyle */
+.lates-courses{
+    display: flex;
+    
+}
+.course{
+    width: 253px;
+    height:270px;
+    box-shadow:1px 1px 1px 1px rgba(219, 215, 215, .4) ;
+    padding: 15px;
+    border-radius: 7px;
+    margin-right: 30px;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+    margin-bottom: 20px;
+}
+.course p{
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+.course a{
+    text-decoration: none;
+    color: #ED6B4F;
+}
+.fa-star{
+    color: #FFC014;
+    font-size: 12px;
+}
+.other-color{
+    color: #AEAEAE;
+    margin-right: 5px;
+}
+#duration{
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #f5d4d8;
+    color: #FF4A60;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
